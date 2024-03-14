@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using FizzBuzzApp;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var fizzBuzz = new FizzBuzz();
+
+        for (int i = 1; 1 < 100; i++)
+        {
+            Console.WriteLine(fizzBuzz.GenerateOutput(i));
+        }
+    }
+}
