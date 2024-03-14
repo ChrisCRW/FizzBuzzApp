@@ -5,12 +5,13 @@ namespace FizzBuzzApp
 {
     public class FizzBuzz
     {
-        private List<IRule> _rules;
+        private readonly List<IRule> _rules;
 
         public FizzBuzz()
         {
             _rules = new List<IRule>();
             this.LoadRules();
+            _rules = _rules.OrderByDescending(r => r.Priority).ToList();
         }
 
         private void LoadRules()

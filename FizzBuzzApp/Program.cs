@@ -6,7 +6,7 @@ class Program
     {
         var fizzBuzz = new FizzBuzz();
 
-        for (int i = 1; 1 < 100; i++)
+        for (Int32 i = 1; i < 100; i++)
         {
             Console.WriteLine(fizzBuzz.GenerateOutput(i));
         }

@@ -4,6 +4,8 @@ namespace FizzBuzzApp.CustomRules
 {
     internal class FizzRule : IRule
     {
+        public Int32 Priority => 0;
+
         public String GetResult()
         {
             return "Fizz";
