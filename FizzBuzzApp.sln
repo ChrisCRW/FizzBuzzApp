@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzApp", "FizzBuzzApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzAppTests", "FizzBuzzAppTests\FizzBuzzAppTests.csproj", "{CE795096-E64D-4CDC-A109-E9E70A38DCBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleInterfaces", "RuleInterfaces\RuleInterfaces.csproj", "{02A72B2F-4F7B-4B1C-8FB4-26148EE8CA52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE795096-E64D-4CDC-A109-E9E70A38DCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE795096-E64D-4CDC-A109-E9E70A38DCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE795096-E64D-4CDC-A109-E9E70A38DCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A72B2F-4F7B-4B1C-8FB4-26148EE8CA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A72B2F-4F7B-4B1C-8FB4-26148EE8CA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A72B2F-4F7B-4B1C-8FB4-26148EE8CA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A72B2F-4F7B-4B1C-8FB4-26148EE8CA52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
