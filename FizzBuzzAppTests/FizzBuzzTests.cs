@@ -29,7 +29,7 @@ namespace FizzBuzzAppTests
         public void TestNumber()
         {
             var fizzBuzz = new FizzBuzz();
-            Assert.Equal("10", fizzBuzz.GenerateOutput(10));
+            Assert.Equal("4", fizzBuzz.GenerateOutput(4));
         }
     }
 }
